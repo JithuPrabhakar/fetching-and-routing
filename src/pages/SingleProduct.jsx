@@ -7,7 +7,7 @@ const SingleProduct = () => {
   return (
     <div>
       <h1>{product.title}</h1>
-      <img src={product.image} alt={product.title} />
+      <img src={product.image} alt={product.title} width={"100px"} />
       <p>{product.description}</p>
       <h4>{product.price}</h4>
       <h5>{product.category}</h5>
